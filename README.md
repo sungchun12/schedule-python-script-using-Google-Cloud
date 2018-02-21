@@ -8,16 +8,16 @@
 Shout out to Mylin Ackerman for all his help. Saved me weeks of research with his personal touch.
 https://www.linkedin.com/in/mylin-ackermann-25a00445/
 
+**Setup Prerequisites**:
+1. Signup for Google Cloud account and enable billing
+2. Enable BigQuery API, Stackdriver API, Google Cloud Deployment Manager V2 API, Google Compute Engine API
+
 **Order of Operations**:
 1. Develop scripts with Google cloud shell or SDK
 2. Deploy on appengine
 3. Deploy cron job
 4. Check BigQuery
 5. Connect with dataviz tool such as Tableau
-
-**Setup Prerequisites**:
-1. Signup for Google Cloud account and enable billing
-2. Enable BigQuery API, Stackdriver API, Google Cloud Deployment Manager V2 API, Google Compute Engine API
 
 **Development Instructions**:
 1. Copy github repository into SDK or Google cloud shell(thankfully it has persistent storage, so you don't have to recopy the folder structure)
