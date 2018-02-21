@@ -3,7 +3,9 @@
 
 **Technical Concept**: Schedules a simple Python script to append data into BigQuery using Google Cloud's App Engine with a cron job.
 
-**Reference**: http://zablo.net/blog/post/python-apache-beam-google-dataflow-cron
+**Source Data**: https://data.cityofchicago.org/Transportation/Chicago-Traffic-Tracker-Congestion-Estimates-by-Se/n4j6-wkkf
+
+**Architecture Reference**: http://zablo.net/blog/post/python-apache-beam-google-dataflow-cron
 
 Shout out to Mylin Ackerman for all his help. Saved me weeks of research with his personal touch.
 https://www.linkedin.com/in/mylin-ackermann-25a00445/
