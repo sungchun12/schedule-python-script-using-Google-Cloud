@@ -1,0 +1,5 @@
+cron:
+- description: append traffic data
+  url: /chicago-traffic/append-data
+  schedule: every 15 mins
+  target: default
