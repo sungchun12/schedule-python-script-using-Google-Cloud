@@ -28,19 +28,21 @@ https://www.linkedin.com/in/mylin-ackermann-25a00445/
 2. To deploy App Engine app, run: gcloud app deploy app.yaml
 3. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
 
-**Files Context**:
+**Folder Structure**:
+
+![alt text](https://storage.googleapis.com/demos-sung.appspot.com/Folder%20Structure.PNG "Using Google Cloud Shell")
 
 init.py needed to properly deploy within App Engine
 
-appengine_config.py adds dependencies to locally installed packages (from lib folder)
+append_data.py - call the Chicago live traffic API and appends it into BigQuery
 
 app.yaml - definition of Google App Engine application
+
+appengine_config.py adds dependencies to locally installed packages (from lib folder)
 
 cron.yaml - definition of Google App Engine CRON job
 
 main.py - entry point for the web application and calls the function contained within "append_data.py"
-
-append_data.py - call the Chicago live traffic API and appends it into BigQuery
 
 requirements.txt - file for pip package manager, which contains list of all required packages to run the application and the pipeline
 
