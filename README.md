@@ -10,6 +10,8 @@
 Shout out to Mylin Ackerman for all his help. Saved me weeks of research with his personal touch.
 https://www.linkedin.com/in/mylin-ackermann-25a00445/
 
+Check me out on Linkedin: https://www.linkedin.com/in/sungwonchung1/
+
 **Setup Prerequisites**:
 1. Signup for Google Cloud account and enable billing
 2. Enable BigQuery API, Stackdriver API, Google Cloud Deployment Manager V2 API, Google Compute Engine API
