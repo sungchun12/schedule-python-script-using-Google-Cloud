@@ -26,9 +26,10 @@ https://www.linkedin.com/in/mylin-ackermann-25a00445/
 2. Create BigQuery dataset: "chicago_traffic"
 
 **Deploy Instructions**:
-1. Install all required packages into local lib folder: pip install -r requirements.txt -t lib
-2. To deploy App Engine app, run: gcloud app deploy app.yaml
-3. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
+1. Remember to put __init__.py files into all local packages
+2. Install all required packages into local lib folder: pip install -r requirements.txt -t lib
+3. To deploy App Engine app, run: gcloud app deploy app.yaml
+4. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
 
 **Folder Structure**:
 
