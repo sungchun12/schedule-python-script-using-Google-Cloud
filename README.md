@@ -17,18 +17,21 @@ https://www.linkedin.com/in/mylin-ackermann-25a00445/
 
 **Setup Prerequisites**:
 1. Signup for Google Cloud account and enable billing
-2. Enable BigQuery API, Stackdriver API, Google Cloud Deployment Manager V2 API, Google Compute Engine API, 
+2. Enable BigQuery API, Stackdriver API, Google Cloud Deployment Manager V2 API, Google Compute Engine API
 
 **Development Instructions**:
 1. Copy github repository into SDK or Google cloud shell(thankfully it has persistent storage, so you don't have to recopy the folder structure)
-2. 
+2. Create BigQuery dataset: "chicago_traffic"
 
 **Deploy Instructions**:
 1. Install all required packages into local lib folder: pip install -r requirements.txt -t lib
 2. To deploy App Engine app, run: gcloud app deploy app.yaml
 3. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
 
-**Document Context**:
+**Files Context**:
+
+init.py needed to properly deploy within App Engine
+
 appengine_config.py adds dependencies to locally installed packages (from lib folder)
 
 app.yaml - definition of Google App Engine application
