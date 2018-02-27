@@ -29,9 +29,10 @@ Check me out on LinkedIn: https://www.linkedin.com/in/sungwonchung1/
 
 **Deploy Instructions**:
 1. Remember to put __init__.py files into all local packages
-2. Install all required packages into local lib folder: pip install -r requirements.txt -t lib
-3. To deploy App Engine app, run: gcloud app deploy app.yaml
-4. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
+2. Change directory: cd ~/chicago-traffic
+3. Install all required packages into local lib folder: pip install -r requirements.txt -t lib
+4. To deploy App Engine app, run: gcloud app deploy app.yaml
+5. To deploy App Engine CRON, run: gcloud app deploy cron.yaml
 
 **Folder Structure**:
 
