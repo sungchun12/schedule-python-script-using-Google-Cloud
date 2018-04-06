@@ -5,4 +5,4 @@ google-api-python-client
 gunicorn==19.7.1
 six==1.10
 Flask==0.12.2
-pandas-gbq==0.3.1
+pandas-gbq==0.4.0
