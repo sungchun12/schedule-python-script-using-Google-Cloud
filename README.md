@@ -24,7 +24,7 @@ Check me out on LinkedIn: https://www.linkedin.com/in/sungwonchung1/
 5. Connect with dataviz tool such as Tableau
 
 **Development Instructions**:
-1. Copy github repository into SDK or Google cloud shell(thankfully it has persistent storage, so you don't have to recopy the folder structure)
+1. Copy github repository into SDK or Google cloud shell(thankfully it has persistent storage, so you don't have to recopy the folder structure): git clone https://github.com/sungchun12/schedule-python-script-using-Google-Cloud.git
 2. Create BigQuery dataset: "chicago_traffic"
 
 **Deploy Instructions**:
